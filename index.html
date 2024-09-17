@@ -15,15 +15,16 @@
 </div>
 <div class="control-btns">
     <div class="user-Input">
-        <input type="number" class="user-Mins">
+        <input type="number" class="user-Mins" min="0">
         <span class="colon">:</span>
-        <input type="number" class="user-Secs">
+        <input type="number" class="user-Secs" min="0" max="60">
         <button class="start-btn">Start</button>
         <!--            <button class="inpBtn">Set Timer</button>-->
     </div>
     <button class="reset-btn hide">Reset</button>
 </div>
 
+<span class="error-msg hide"></span>
 
 <script src="app.js"></script>
 </body>

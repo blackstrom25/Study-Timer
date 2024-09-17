@@ -16,6 +16,8 @@ body{
 }
 
 .main-timer{
+    position: relative;
+    top: 2.3rem;
     font-size: 15rem;
     color: #502b16;
 }
@@ -23,6 +25,8 @@ body{
 .control-btns{
     /*width: 23rem;*/
     /*border: 4px black solid;*/
+    position: relative;
+    top: -1rem;
     display: flex;
     justify-content: space-around;
 }
@@ -83,6 +87,11 @@ input::-webkit-inner-spin-button {
     display: none;
 }
 
+.error-msg{
+    color: red;
+    text-align: left;
+}
+
 /*
 shift the bg upward
 body{
@@ -90,12 +99,10 @@ body{
 }
 
 .control-btns{
-    position: relative;
     top: -7rem;
 }
 
 .main-timer{
-    position: relative;
     top: -4rem;
 }
  */
